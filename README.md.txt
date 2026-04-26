@@ -1,37 +1,37 @@
-# 📊 Financial Statement Data Cleaning Project
+#  Financial Statement Data Cleaning Project
 
-## 🔍 Overview
+ Overview
 
 This project focuses on cleaning and transforming messy financial statement data into a structured, analysis-ready format.
 
-The dataset contains **Profit & Loss (P&L)** and **Balance Sheet** information, which were originally unorganized and required significant preprocessing before analysis.
+The dataset contains **Profit & Loss (P&L)** and **Balance Sheet**  and **Cash Flow Statement** information, which were originally unorganized and required significant preprocessing before analysis.
 
 ---
 
-## ⚠️ Problem Statement
+## Problem Statement
 
 The raw dataset had several issues:
 
 * Mixed headers and data in the same column
 * Presence of null and blank rows
-* Financial sections (P&L and Balance Sheet) combined
+* Financial sections (P&L, Balance Sheet and Cash Flow Statement) combined
 * Year values spread across multiple columns
 * Metadata rows such as *"in million USD"*
 * Inconsistent column structure
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 * Microsoft Excel
 * Power Query
 
 ---
 
-## 🧹 Data Cleaning Steps
+## Data Cleaning Steps
 
 1. Loaded raw dataset into Power Query
-2. Identified and labeled financial sections (P&L and Balance Sheet)
+2. Identified and labeled financial sections (P&L, Balance Sheet And Cash Flow Statement)
 3. Created a **Statement Type** column
 4. Applied **Fill Down** to assign correct categories
 5. Removed null rows and unnecessary metadata
@@ -43,18 +43,7 @@ The raw dataset had several issues:
 
 ---
 
-## 📊 Final Output Structure
-
-The cleaned dataset is structured as follows:
-
-| Statement Type | Account | Year | Amount |
-| -------------- | ------- | ---- | ------ |
-| P&L            | Revenue | 2009 | 30990  |
-| Balance Sheet  | Cash    | 2009 | 7021   |
-
----
-
-## 💡 Key Learnings
+## Key Learnings
 
 * Handling real-world messy financial data
 * Using Power Query for data transformation
@@ -63,7 +52,7 @@ The cleaned dataset is structured as follows:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Financial-Statement-Data-Cleaning/
