@@ -1,5 +1,6 @@
 # Financial-Statement-Data-Cleaning
 Cleaned messy financial statement data using Excel Power Query.
+
 Overview
 
 This project focuses on cleaning and transforming messy financial statement data into a structured, analysis-ready format.
