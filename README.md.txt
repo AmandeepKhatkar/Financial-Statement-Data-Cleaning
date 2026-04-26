@@ -68,7 +68,7 @@ Financial-Statement-Data-Cleaning/
 
 ---
 
-## 🌐 Data Source
+## Data Source
 
 The dataset used in this project was obtained from:
 
@@ -78,7 +78,7 @@ SimFin provides financial statement data including Profit & Loss and Balance She
 
 ---
 
-## 🚀 Conclusion
+## Conclusion
 
 This project demonstrates the process of converting unstructured financial data into a clean and usable format, which can be further used for analysis and visualization in tools like Power BI.
 
